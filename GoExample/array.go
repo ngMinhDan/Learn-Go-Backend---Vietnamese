@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var a [5]int
-	fmt.Println(a, "Empty")
+	var a [5]int            // cách khai báo var + arrayName + [Độ dài]tên kiểu
+	fmt.Println(a, "Empty") // Mặc định là 0
 
 	a[4] = 100
 	fmt.Println("set: ", a)
